@@ -4,7 +4,7 @@ echo "WARNING! This will attempt to delete the following files/folders:"
 echo "~/.vimrc"
 echo "~/.viminfo"
 echo "~/.vim/"
-echo "Please ensure you have moved these to your dropbox folder, or backed them up in a seperate location."
+echo "Please ensure you have moved these to your ~/Dropbox/dropvim/* folder, or backed them up in a seperate location, otherwise THEY WILL BE LOST."
 
 while true; do
     read -p "Do you wish to continue [y/n]? " yn
